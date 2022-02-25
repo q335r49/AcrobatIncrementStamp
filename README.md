@@ -2,7 +2,10 @@
 Auto-incrementing stamp for Acrobat. 
 
 ### Installation
-Place `Increment.pdf` in the acrobat stamps folder: `C:\Users\*User Name*\AppData\Roaming\Adobe\Acrobat\11.0\Stamps\`
+Place `Increment.pdf` in the acrobat stamps folder:
+Windows: `C:\Users\*User Name*\AppData\Roaming\Adobe\Acrobat\11.0\Stamps\`
+Mac: `/Users/*User Name*/Library/Application Support/Adobe/Acrobat/DC/Stamps/`
+(Or find the folder via JavaScript Console with `app.getPath('user','stamps')` + Strg \[or\] Command Enter.)
 
 ### Usage
 - Stamp will prompt for start value the first time it is used in a document
